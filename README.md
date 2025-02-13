@@ -18,8 +18,8 @@ A **classic Snake game** built using **Python's Turtle module**. Control the sna
 ## 🚀 Installation & Running
 ### **1️⃣ Clone the repository**
 ```bash
-git clone https://github.com/your-username/Snake-game.git
-cd Snake-game
+git clone https://github.com/abhinav23122021234/Snake-Game.git
+cd Snake-Game
 ```
 ### **2️⃣ Install Dependencies**
 Ensure you have Python installed (>=3.6). No extra libraries are needed as it uses the built-in **turtle** module.
