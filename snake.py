@@ -22,7 +22,7 @@ class Snake:
             snake_part.penup()
             snake_part.goto(x, y)
             x -= 20
-
+        self.snake_body[0].color("green")
     # TODO 2 : Make the snake move
     def move_snake(self):
         screen.tracer(0)
@@ -60,3 +60,9 @@ class Snake:
         if self.head.heading() != LEFT:
             self.head.setheading(RIGHT)
 
+    def reset(self):
+        for seg in self.snake_body:
+            seg.goto(1000,1000)
+        self.snake_body.clear()
+        self.create_snake()
+        self.head=self.snake_body[0]
